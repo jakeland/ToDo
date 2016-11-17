@@ -1,0 +1,58 @@
+Project Objective
+    - Develop a to-do list application
+
+    Criteria
+        - Use any languages and platforms
+
+    Development decisions
+        - Decided to do a web front end using Node.js
+        - Going to use SQLite, more than likely.
+        - single user.
+
+    Scope:
+        Create a single user ToDo list with a focus on simplicity and user experience.
+
+
+    Features
+        Minimum requirements
+            Add
+            Delete
+        A Good Start
+            Persistant Data
+            Organize Tasks (move em around).
+            Create Steps (BONUS: ordered vs unordered?)
+            Mark as Done (without deleting).
+            Mark as ... pending? (Decide to wait on a task. )
+            Task History - (BONUS: Stats about day added, started, and completed?)
+            Reminders and Deadlines
+            Categories / Tags?
+            Things to think about:
+            Ability to re-use stored tasks?
+            A larger, more permanent category for tasks. No clearly defined "End". Project?
+
+    Definitions:
+        For the purposes of this project, the following words will be defined as such:
+            -Task
+                --An item in the To Do List. Should have a criteria of completion.
+
+            -SubTask
+                --A part of a task, representative of a partial completion of a task. Order NOT Important.
+
+            -SubStep
+                --A part of a task, representative of a partial completion of a task. Order Important.
+
+            -Project
+                -A category for tasks. No criteria for completion. (Note: probably not the best name. Come back to this later. -JMC)
+
+            -JMC
+                --used to find uncompleted tasks, important notes, etc. during the project.
+
+    ToDo (Coincidental):
+        Done. 1. Competive analysis. Look at what other people do. Find out what's strong and weak.
+        Done. 2. Talk to people that use ToDo apps.
+        Come back to it. 3. Update Projects README to Define Scope.
+        4. Decide on Database (again , probably SQLite).
+        5. Create Database Requirements.
+        6. Create UI.
+        7. Review database requirements.
+        8. Create database.
